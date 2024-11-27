@@ -1,0 +1,132 @@
+angelchest-saveversion: 2
+uniqueId: 266ce24e-7600-42e8-a41b-3d85962dd487
+suspend-countdowns-when-player-is-offline: false
+worldid: 1e7574d3-972b-44cc-8664-06c3de722bc1
+x: -236
+y: 71
+z: 684
+infinite: false
+owner: bdca5c86-df72-3b9e-9784-60bd29ced7dd
+isProtected: false
+secondsLeft: 576
+unlockIn: -1
+created: 1732682107411
+experience: 0
+levels: 0
+price: 0.0
+customblock:
+  entities: []
+  location:
+    worldid: 1e7574d3-972b-44cc-8664-06c3de722bc1
+    x: -236
+    y: 71
+    z: 684
+  id: minecraft:CHEST
+  originalBlockData: minecraft:air
+deathCause:
+  damageCause: FALL
+  killer: null
+opened-by:
+- c04600ef-ca80-3181-a4c4-0a327d0c948f
+logfile: SinJao_world_2024-11-27_04-35-07.log
+storageInv:
+- ==: org.bukkit.inventory.ItemStack
+  v: 3953
+  type: SAND
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+armorInv:
+- null
+- null
+- null
+- null
+extraInv:
+- null
+overflowInv:
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null

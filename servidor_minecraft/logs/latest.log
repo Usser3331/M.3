@@ -1,0 +1,953 @@
+[01:43:21] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[01:43:21] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) for Minecraft 1.21
+[01:43:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:43:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[01:43:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - AngelChest (13.9.0), Essentials (2.20.1), LuckPerms (5.4.146), PlaceholderAPI (2.11.6), SkinsRestorer (15.4.4), TAB (5.0.1), TreeCapitator (1.0), Vault (1.7.3-b131)
+[01:43:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:43:42] [ServerMain/INFO]: Loaded 1290 recipes
+[01:43:42] [ServerMain/INFO]: Loaded 1399 advancements
+[01:43:44] [Server thread/INFO]: Starting minecraft server version 1.21
+[01:43:44] [Server thread/INFO]: Loading properties
+[01:43:44] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[01:43:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:43:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:43:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:43:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[01:43:49] [Server thread/INFO]: Default game type: SURVIVAL
+[01:43:49] [Server thread/INFO]: Generating keypair
+[01:43:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:43:50] [Server thread/INFO]: Using epoll channel type
+[01:43:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:43:50] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:43:52] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:44:10] [Server thread/WARN]: Legacy plugin TreeCapitator v1.0 does not specify an api-version.
+[01:44:10] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[01:44:11] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[01:44:11] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[01:44:11] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[01:44:12] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[01:44:12] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.1
+[01:44:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[01:44:12] [Server thread/INFO]: [TreeCapitator] Loading server plugin TreeCapitator v1.0
+[01:44:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:44:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[01:44:12] [Server thread/INFO]:         __    
+[01:44:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[01:44:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[01:44:12] [Server thread/INFO]: 
+[01:44:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:44:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:44:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:44:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:44:15] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3236ms)
+[01:44:15] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[01:44:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[01:44:16] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:44:16] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[01:44:16] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:44:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[01:44:19] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[01:44:21] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[01:44:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:44:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.4]
+[01:44:23] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[01:44:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:44:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:44:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:44:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:44:23] [Server thread/INFO]: Preparing level "world"
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:44:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:44:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:44:28] [Server thread/INFO]: Time elapsed: 2000 ms
+[01:44:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:44:31] [Server thread/INFO]: Time elapsed: 3251 ms
+[01:44:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:44:32] [Server thread/INFO]: Time elapsed: 413 ms
+[01:44:32] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[01:44:33] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[01:44:33] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[01:44:33] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[01:44:33] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[01:44:33] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[01:44:34] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[01:44:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: angelchest [GENERIC]
+[01:44:34] [Server thread/INFO]: [AngelChest] Successfully hooked into Vault and the EconomyProvider, enabling economy functions.
+[01:44:34] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:44:35] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[01:44:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[01:44:35] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[01:44:37] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:44:37] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:44:38] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[01:44:38] [Server thread/INFO]: [Essentials] Using locale en
+[01:44:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:44:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:44:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[01:44:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[01:44:39] [Server thread/INFO]: [TAB] Enabling TAB v5.0.1
+[01:44:40] [Server thread/INFO]: [TAB] Loaded NMS hook in 303ms
+[01:44:42] [Server thread/INFO]: [TAB] Enabled in 2276ms
+[01:44:42] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0*
+[01:44:43] [Server thread/INFO]: [spark] Starting background profiler...
+[01:44:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[01:44:44] [Server thread/INFO]: Done preparing level "world" (20.906s)
+[01:44:44] [Server thread/INFO]: Running delayed init tasks
+[01:44:44] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[01:44:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[01:44:44] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[01:44:44] [Server thread/INFO]: Done (86.294s)! For help, type "help"
+[01:44:44] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[01:44:44] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[01:44:45] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[01:44:47] [Server thread/INFO]: [AngelChest] ========================================================
+[01:44:47] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[01:44:47] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[01:44:47] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[01:44:47] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[01:44:47] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[01:44:47] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[01:44:47] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[01:44:47] [Server thread/INFO]: [AngelChest] 
+[01:44:47] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[01:44:47] [Server thread/INFO]: [AngelChest] ========================================================
+[01:47:42] [User Authenticator #0/INFO]: UUID of player MINEcreeperPro is 142c0611-e50a-3f7c-97bf-d19e90e9834a
+[01:47:44] [Server thread/INFO]: MINEcreeperPro joined the game
+[01:47:44] [Server thread/INFO]: MINEcreeperPro[/127.124.181.102:48883] logged in with entity id 27 at ([world]-11.5, 63.0, 9.5)
+[01:48:25] [User Authenticator #0/INFO]: UUID of player Strande_ is 19c09800-4cec-3c93-99a0-4841cc10b8b7
+[01:48:29] [Server thread/INFO]: Strande_ joined the game
+[01:48:29] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Strande_'s group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[01:48:29] [Server thread/INFO]: Strande_[/127.200.126.4:37989] logged in with entity id 270 at ([world]-1055.4920241961904, 64.0, 475.30000001192093)
+[01:48:41] [Paper Common Worker #0/WARN]: Empty height range: [-55 absolute--60 absolute]
+[01:48:41] [Paper Common Worker #0/WARN]: Empty height range: [-55 absolute--60 absolute]
+[01:48:41] [Paper Common Worker #0/WARN]: Empty height range: [-55 absolute--60 absolute]
+[01:48:42] [Async Chat Thread - #0/INFO]: [Not Secure] <MINEcreeperPro> hi, soy new
+[01:49:05] [Server thread/INFO]: Strande_ issued server command: /home base1
+[01:49:34] [Server thread/INFO]: Strande_ issued server command: /lp user MINEcreeperPro parent set tilines
+[01:49:34] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (minecreeperpro)
+[01:49:34] [luckperms-command-executor/INFO]: [LP] LOG > parent set tilines
+[01:49:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Player MINEcreeperPro's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[01:49:59] [Server thread/INFO]: Strande_ issued server command: /lp user MINEcreeperPro permission set essentials.sethome true
+[01:49:59] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (minecreeperpro)
+[01:49:59] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome true
+[01:50:05] [Async Chat Thread - #1/INFO]: [Not Secure] <Strande_> sal y vuelve a entra
+[01:50:11] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> yo?
+[01:50:16] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> si
+[01:50:17] [Server thread/INFO]: MINEcreeperPro lost connection: Disconnected
+[01:50:17] [Server thread/INFO]: MINEcreeperPro left the game
+[01:50:23] [User Authenticator #1/INFO]: UUID of player MINEcreeperPro is 142c0611-e50a-3f7c-97bf-d19e90e9834a
+[01:50:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Player MINEcreeperPro's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[01:50:24] [Server thread/INFO]: MINEcreeperPro joined the game
+[01:50:24] [Server thread/INFO]: MINEcreeperPro[/127.124.181.102:59485] logged in with entity id 1204 at ([world]-1.361372530125199, 65.0, 10.028473342693827)
+[01:50:35] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> q
+[01:50:50] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[01:50:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> suerte
+[01:50:55] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[01:51:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> que fue
+[01:51:13] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> dame madera
+[01:51:22] [Server thread/INFO]: MINEcreeperPro has made the advancement [Acquire Hardware]
+[01:51:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> ven
+[01:52:11] [Async Chat Thread - #1/INFO]: [Not Secure] <MINEcreeperPro> dnd
+[01:52:13] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[01:52:30] [Async Chat Thread - #1/INFO]: [Not Secure] <MINEcreeperPro> MY KIT?
+[01:52:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> no xd
+[01:52:40] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> oko
+[01:52:40] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> cosas de alguien
+[01:52:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> solo no agarres cosas de los demas o solo pidelo
+[01:53:24] [Server thread/INFO]: MINEcreeperPro has made the advancement [Isn't It Iron Pick]
+[01:53:25] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[01:53:26] [Server thread/INFO]: MINEcreeperPro has made the advancement [Suit Up]
+[01:53:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> puedes venir xd
+[01:53:54] [Async Chat Thread - #1/INFO]: [Not Secure] <MINEcreeperPro> dnd
+[01:53:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> manda tpa
+[01:54:02] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[01:54:11] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[01:54:20] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> de q es
+[01:54:27] [Server thread/INFO]: MINEcreeperPro has made the advancement [Monster Hunter]
+[01:54:46] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> xq no hay pvp
+[01:55:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> para evitar que se peleen xd
+[01:55:13] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> q paja un server asi
+[01:56:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Strande_> ga?
+[01:56:14] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> te toca hacer limpieza no?
+[01:56:27] [Async Chat Thread - #2/INFO]: [Not Secure] <MINEcreeperPro> dame comida
+[01:57:02] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[01:57:28] [Async Chat Thread - #3/INFO]: [Not Secure] <MINEcreeperPro> y mi comida
+[01:57:28] [Server thread/INFO]: Strande_ fell from a high place
+[01:57:32] [Async Chat Thread - #4/INFO]: [Not Secure] <MINEcreeperPro> XD\
+[01:57:33] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[01:57:37] [Async Chat Thread - #4/INFO]: [Not Secure] <Strande_> xd
+[01:58:38] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[01:59:21] [Async Chat Thread - #5/INFO]: [Not Secure] <MINEcreeperPro> che me dejaste aqui arriba
+[01:59:28] [Async Chat Thread - #5/INFO]: [Not Secure] <Strande_> a verdad
+[01:59:30] [Async Chat Thread - #5/INFO]: [Not Secure] <Strande_> manda tp xd
+[01:59:32] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[01:59:38] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[01:59:42] [Async Chat Thread - #5/INFO]: [Not Secure] <MINEcreeperPro> me dice q no puedo
+[02:00:15] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> sal y vuelve a entrar el server tarda el procesar la ip
+[02:00:19] [Server thread/INFO]: MINEcreeperPro lost connection: Disconnected
+[02:00:19] [Server thread/INFO]: MINEcreeperPro left the game
+[02:00:27] [User Authenticator #2/INFO]: UUID of player MINEcreeperPro is 142c0611-e50a-3f7c-97bf-d19e90e9834a
+[02:00:27] [Server thread/INFO]: MINEcreeperPro joined the game
+[02:00:27] [TAB Processing Thread/INFO]: [TAB] [WARN] Player MINEcreeperPro's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[02:00:27] [Server thread/INFO]: MINEcreeperPro[/127.124.181.102:41855] logged in with entity id 4312 at ([world]-243.89877518605846, 193.0, 778.4614238756797)
+[02:00:35] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[02:00:37] [Async Chat Thread - #6/INFO]: [Not Secure] <MINEcreeperPro> no
+[02:00:45] [Async Chat Thread - #6/INFO]: [Not Secure] <MINEcreeperPro> abajo no hay agua?
+[02:01:09] [Server thread/INFO]: Strande_ issued server command: /lp user MINEcreeperPro permission set essentials.tpa true
+[02:01:09] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (minecreeperpro)
+[02:01:09] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tpa true
+[02:01:13] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> intentalo aver
+[02:01:21] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[02:01:27] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[02:01:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> Strande_
+[02:01:50] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> dc
+[02:01:59] [Async Chat Thread - #6/INFO]: [Not Secure] <MINEcreeperPro> vos sos el q me escribe?
+[02:02:15] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> ?
+[02:02:22] [Async Chat Thread - #6/INFO]: [Not Secure] <MINEcreeperPro> ahi te mande
+[02:02:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> nada no me aparece
+[02:02:57] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> intenta con
+[02:03:01] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> z.str
+[02:03:12] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> *z.str_
+[02:03:34] [Async Chat Thread - #6/INFO]: [Not Secure] <MINEcreeperPro> ya
+[02:03:56] [Async Chat Thread - #6/INFO]: [Not Secure] <Strande_> ahi te acepte
+[02:04:04] [Server thread/INFO]: Strande_ issued server command: /home granja
+[02:04:04] [Async Chat Thread - #6/INFO]: [Not Secure] <MINEcreeperPro> meteme en el grupo pe
+[02:06:32] [Async Chat Thread - #7/INFO]: [Not Secure] <MINEcreeperPro> m das comida?w
+[02:06:39] [Async Chat Thread - #7/INFO]: [Not Secure] <Strande_> manda tpa
+[02:06:51] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[02:06:55] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[02:07:06] [Async Chat Thread - #7/INFO]: [Not Secure] <MINEcreeperPro> pa eso no me des nada
+[02:07:24] [Async Chat Thread - #7/INFO]: [Not Secure] <MINEcreeperPro> m regalas shulko?
+[02:07:33] [Async Chat Thread - #7/INFO]: [Not Secure] <Strande_> xd+
+[02:08:34] [Server thread/INFO]: MINEcreeperPro has made the advancement [Diamonds!]
+[02:08:40] [Async Chat Thread - #9/INFO]: [Not Secure] <MINEcreeperPro> XD
+[02:08:41] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[02:08:55] [Async Chat Thread - #9/INFO]: [Not Secure] <MINEcreeperPro> CM ME SACAS LAS COSAS
+[02:09:04] [Async Chat Thread - #9/INFO]: [Not Secure] <MINEcreeperPro> re tramposo
+[02:09:04] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[02:09:43] [Async Chat Thread - #9/INFO]: [Not Secure] <MINEcreeperPro> pero si m das mas comida?
+[02:10:04] [Async Chat Thread - #9/INFO]: [Not Secure] <Strande_> no tengo tampoc
+[02:10:05] [Async Chat Thread - #9/INFO]: [Not Secure] <Strande_> xd
+[02:10:15] [Async Chat Thread - #9/INFO]: [Not Secure] <MINEcreeperPro> podes llamada?
+[02:11:10] [Server thread/INFO]: MINEcreeperPro issued server command: /sethome
+[02:11:18] [Async Chat Thread - #11/INFO]: [Not Secure] <Strande_> pon
+[02:11:27] [Server thread/INFO]: Strande_ issued server command: /home base1
+[02:11:30] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[02:11:35] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[02:11:44] [Server thread/INFO]: MINEcreeperPro issued server command: /sethome
+[02:12:03] [Server thread/INFO]: Strande_ issued server command: /home granja
+[02:12:54] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[02:12:58] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[02:14:18] [Server thread/INFO]: Strande_ issued server command: /home base1
+[02:14:18] [Server thread/INFO]: MINEcreeperPro issued server command: /home
+[02:14:23] [Server thread/INFO]: MINEcreeperPro issued server command: /home
+[02:14:27] [Server thread/INFO]: Strande_ issued server command: /homes MINEcreeperPro:
+[02:14:49] [Server thread/INFO]: MINEcreeperPro has reached the goal [Sky's the Limit]
+[02:17:14] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[02:18:43] [Server thread/WARN]: Spruce Boat (vehicle of MINEcreeperPro) moved wrongly! 0.3029735051914031
+[02:18:44] [Server thread/WARN]: Spruce Boat (vehicle of MINEcreeperPro) moved wrongly! 0.28644469745358947
+[02:18:44] [Server thread/WARN]: Spruce Boat (vehicle of MINEcreeperPro) moved wrongly! 0.6265137791297093
+[02:18:44] [Server thread/WARN]: Spruce Boat (vehicle of MINEcreeperPro) moved wrongly! 0.8999999761581421
+[02:22:25] [Server thread/INFO]: MINEcreeperPro has made the advancement [Stone Age]
+[02:23:37] [Server thread/INFO]: MINEcreeperPro has made the advancement [Not Today, Thank You]
+[02:23:40] [Server thread/INFO]: MINEcreeperPro was shot by Skeleton
+[02:32:30] [Server thread/WARN]: Strande_ moved wrongly!, (0.0)
+[02:33:19] [Server thread/INFO]: Strande_ issued server command: /home granja
+[02:37:05] [User Authenticator #3/INFO]: UUID of player fabrizio123 is c04600ef-ca80-3181-a4c4-0a327d0c948f
+[02:37:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Player fabrizio123's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[02:37:08] [Server thread/INFO]: fabrizio123 joined the game
+[02:37:08] [Server thread/INFO]: fabrizio123[/127.109.34.235:37979] logged in with entity id 24852 at ([world]-243.5, 74.0, 676.5)
+[02:37:13] [Async Chat Thread - #13/INFO]: [Not Secure] <Strande_> JAJAJ
+[02:37:15] [Async Chat Thread - #13/INFO]: [Not Secure] <Strande_> OE
+[02:37:17] [Async Chat Thread - #13/INFO]: [Not Secure] <fabrizio123> xd
+[02:37:19] [Async Chat Thread - #13/INFO]: [Not Secure] <MINEcreeperPro> fabrizio puto q es
+[02:37:20] [Async Chat Thread - #13/INFO]: [Not Secure] <Strande_> ESTAS PARA DC?
+[02:37:26] [Async Chat Thread - #13/INFO]: [Not Secure] <Strande_> JAJAJAJ
+[02:37:33] [Async Chat Thread - #13/INFO]: [Not Secure] <fabrizio123> nou
+[02:37:41] [Async Chat Thread - #13/INFO]: [Not Secure] <fabrizio123> nime xd
+[02:37:50] [Async Chat Thread - #13/INFO]: [Not Secure] <Strande_> OE ENTRA A DS
+[02:37:59] [Async Chat Thread - #13/INFO]: [Not Secure] <Strande_> PARA QUE CONOZCAS AL Nuevo
+[02:38:01] [Async Chat Thread - #13/INFO]: [Not Secure] <fabrizio123> ah?
+[02:38:30] [Async Chat Thread - #13/INFO]: [Not Secure] <fabrizio123> no puedo
+[02:39:05] [Server thread/INFO]: Strande_ issued server command: /tpa MINEcreeperPro
+[02:39:15] [Server thread/INFO]: MINEcreeperPro issued server command: /tpaccept
+[02:40:37] [Async Chat Thread - #15/INFO]: [Not Secure] <Strande_> oe
+[02:40:38] [Async Chat Thread - #15/INFO]: [Not Secure] <Strande_> fabrizio123
+[02:40:46] [Async Chat Thread - #15/INFO]: [Not Secure] <Strande_> le sabes al pvp?
+[02:40:54] [Async Chat Thread - #15/INFO]: [Not Secure] <fabrizio123> xd
+[02:40:57] [Async Chat Thread - #15/INFO]: [Not Secure] <fabrizio123> donde
+[02:44:15] [Server thread/INFO]: Strande_ issued server command: /homes granja
+[02:46:02] [Server thread/INFO]: Villager Villager['Farmer'/23632, uuid='1272d448-84a1-4e5b-bd8d-c0897f7101a2', l='ServerLevel[world]', x=-1003.71, y=116.86, z=1677.58, cpos=[-63, 104], tl=14909, v=true] died, message: 'Farmer was slain by Zombie'
+[02:49:11] [Server thread/INFO]: Strande_ issued server command: /home granja2_1
+[02:49:12] [Async Chat Thread - #17/INFO]: [Not Secure] <fabrizio123> que fue
+[02:49:32] [Async Chat Thread - #18/INFO]: [Not Secure] <Strande_> oe
+[02:49:35] [Async Chat Thread - #18/INFO]: [Not Secure] <Strande_> fabrizio123
+[02:49:45] [Async Chat Thread - #18/INFO]: [Not Secure] <fabrizio123> q
+[02:49:52] [Server thread/INFO]: Strande_ issued server command: /tpa fabrizio123
+[02:50:12] [Server thread/INFO]: fabrizio123 issued server command: /tpaccept
+[02:50:16] [Async Chat Thread - #18/INFO]: [Not Secure] <Strande_> que fue
+[02:50:22] [Async Chat Thread - #18/INFO]: [Not Secure] <fabrizio123> q
+[02:50:24] [Async Chat Thread - #18/INFO]: [Not Secure] <Strande_> que hacemos beba
+[02:50:37] [Async Chat Thread - #18/INFO]: [Not Secure] <fabrizio123> y el otro man
+[02:51:55] [Async Chat Thread - #19/INFO]: [Not Secure] <Strande_> oe
+[02:51:59] [Async Chat Thread - #19/INFO]: [Not Secure] <Strande_> fabrizio123
+[02:52:02] [Async Chat Thread - #19/INFO]: [Not Secure] <Strande_> entra a ws
+[02:52:12] [Async Chat Thread - #21/INFO]: [Not Secure] <fabrizio123> tya
+[02:52:18] [Async Chat Thread - #21/INFO]: [Not Secure] <Strande_> yaya fast
+[02:52:47] [Server thread/INFO]: Strande_ issued server command: /tpa MINEcreeperPro
+[02:53:53] [Async Chat Thread - #22/INFO]: [Not Secure] <Strande_> habla p
+[02:55:08] [Server thread/INFO]: Strande_ issued server command: /tpa MINEcreeperPro
+[02:55:11] [Server thread/INFO]: MINEcreeperPro issued server command: /tpaccept
+[02:56:02] [Server thread/INFO]: MINEcreeperPro fell from a high place
+[02:56:06] [User Authenticator #4/INFO]: UUID of player deyvid is ca332b03-39fd-3fe8-b2f3-677e8c2119d1
+[02:56:09] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[02:56:11] [Server thread/INFO]: Strande_ issued server command: /aclist MINEcreeperPro
+[02:56:13] [Server thread/INFO]: deyvid joined the game
+[02:56:13] [Server thread/INFO]: deyvid[/127.8.201.216:45237] logged in with entity id 33564 at ([world]7.5, 63.0, 16.5)
+[02:56:13] [Server thread/INFO]: Strande_ issued server command: /acfetch MINEcreeperPro 1
+[02:56:19] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[02:56:37] [Server thread/INFO]: Strande_ issued server command: /lp user deyvid parent set tilines
+[02:56:37] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (deyvid)
+[02:56:37] [luckperms-command-executor/INFO]: [LP] LOG > parent set tilines
+[02:56:38] [TAB Processing Thread/INFO]: [TAB] [WARN] Player deyvid's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[02:56:58] [Server thread/INFO]: deyvid issued server command: /bukkit:?
+[02:57:02] [Server thread/INFO]: Strande_ issued server command: /lp user deyvid permission set essentials.sethome true
+[02:57:02] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (deyvid)
+[02:57:02] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome true
+[02:57:38] [Server thread/INFO]: deyvid issued server command: /luckperms:luckperms
+[02:57:43] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[02:57:46] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[02:57:51] [Server thread/INFO]: Strande_ issued server command: /home spawn
+[02:58:12] [Async Chat Thread - #24/INFO]: [Not Secure] <Strande_> amigo que tal xd
+[02:58:16] [Async Chat Thread - #24/INFO]: [Not Secure] <Strande_> estas en ws?
+[02:58:25] [Async Chat Thread - #24/INFO]: [Not Secure] <deyvid> hola
+[02:58:29] [Async Chat Thread - #25/INFO]: [Not Secure] <deyvid> si
+[02:58:35] [Async Chat Thread - #25/INFO]: [Not Secure] <Strande_> metete a la llamda si puedes
+[02:58:52] [Async Chat Thread - #25/INFO]: [Not Secure] <deyvid> ok
+[02:58:55] [Async Chat Thread - #24/INFO]: [Not Secure] <Strande_> vava
+[02:59:31] [Async Chat Thread - #24/INFO]: [Not Secure] <deyvid> y
+[02:59:36] [Async Chat Thread - #24/INFO]: [Not Secure] <deyvid> ya+
+[03:00:04] [Async Chat Thread - #24/INFO]: [Not Secure] <Strande_> entra a la llamda
+[03:00:05] [Async Chat Thread - #24/INFO]: [Not Secure] <Strande_> xd
+[03:00:10] [Async Chat Thread - #24/INFO]: [Not Secure] <Strande_> ahi para hablar
+[03:00:14] [Async Chat Thread - #24/INFO]: [Not Secure] <deyvid> pera
+[03:00:21] [Server thread/INFO]: fabrizio123 has made the advancement [Sneak 100]
+[03:01:10] [Async Chat Thread - #24/INFO]: [Not Secure] <Strande_> xd
+[03:01:13] [Async Chat Thread - #24/INFO]: [Not Secure] <deyvid> colgaron xd
+[03:02:25] [Async Chat Thread - #26/INFO]: [Not Secure] <deyvid> tienes algun clan o cada quien es por separado
+[03:02:30] [Async Chat Thread - #27/INFO]: [Not Secure] <Strande_> sisi
+[03:02:33] [Async Chat Thread - #27/INFO]: [Not Secure] <Strande_> sabes
+[03:02:36] [Async Chat Thread - #28/INFO]: [Not Secure] <Strande_> lo de tpa
+[03:02:37] [Async Chat Thread - #28/INFO]: [Not Secure] <Strande_> ?
+[03:02:44] [Async Chat Thread - #28/INFO]: [Not Secure] <deyvid> si
+[03:02:49] [Server thread/INFO]: Strande_ issued server command: /home granja
+[03:02:54] [Server thread/INFO]: Strande_ issued server command: /home base1
+[03:02:56] [Async Chat Thread - #27/INFO]: [Not Secure] <Strande_> manda tpa
+[03:03:09] [Server thread/INFO]: deyvid issued server command: /tpa Strande_
+[03:03:12] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:03:28] [Async Chat Thread - #26/INFO]: [Not Secure] <deyvid> ala q cheta xd
+[03:04:35] [Server thread/INFO]: deyvid has made the advancement [Stone Age]
+[03:04:40] [Async Chat Thread - #29/INFO]: [Not Secure] <Strande_> tene cuidado
+[03:04:47] [Async Chat Thread - #29/INFO]: [Not Secure] <deyvid> ok
+[03:04:49] [Server thread/INFO]: Strande_ issued server command: /tpa fabrizio123
+[03:05:19] [Async Chat Thread - #30/INFO]: [Not Secure] <fabrizio123> q
+[03:05:21] [Server thread/INFO]: fabrizio123 issued server command: /tpaccept
+[03:05:39] [Server thread/INFO]: deyvid has made the advancement [Getting an Upgrade]
+[03:05:49] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:05:52] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:06:16] [Server thread/INFO]: deyvid has made the advancement [Monster Hunter]
+[03:06:20] [Server thread/INFO]: deyvid was slain by Zombie
+[03:06:26] [Async Chat Thread - #31/INFO]: [Not Secure] <deyvid> xd
+[03:06:43] [Async Chat Thread - #31/INFO]: [Not Secure] <Strande_> xd
+[03:06:55] [Async Chat Thread - #31/INFO]: [Not Secure] <deyvid> me mato unos mods
+[03:07:06] [Server thread/INFO]: deyvid issued server command: /tpa Strande_
+[03:07:09] [Server thread/INFO]: Strande_ was obliterated by a sonically-charged shriek
+[03:07:12] [Server thread/INFO]: MINEcreeperPro has made the advancement [Sneak 100]
+[03:07:13] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:07:16] [Server thread/INFO]: Strande_ has made the advancement [Sneak 100]
+[03:07:19] [Async Chat Thread - #32/INFO]: [Not Secure] <deyvid> xd
+[03:07:19] [Server thread/INFO]: fabrizio123 was obliterated by a sonically-charged shriek
+[03:07:23] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:07:25] [Server thread/INFO]: Strande_ was slain by Warden
+[03:07:28] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:07:38] [Server thread/INFO]: Strande_ was obliterated by a sonically-charged shriek
+[03:07:42] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:07:45] [Server thread/INFO]: deyvid issued server command: /tpa Strande_
+[03:07:52] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:08:23] [Server thread/INFO]: Strande_ was obliterated by a sonically-charged shriek
+[03:08:27] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:08:42] [Async Chat Thread - #33/INFO]: [Not Secure] <deyvid> me asen tp xd
+[03:08:52] [Server thread/INFO]: fabrizio123 was obliterated by a sonically-charged shriek
+[03:08:53] [Server thread/INFO]: deyvid was slain by Zombie
+[03:08:56] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:08:59] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:09:39] [Server thread/INFO]: Strande_ was obliterated by a sonically-charged shriek
+[03:09:45] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:10:24] [Server thread/INFO]: fabrizio123 was obliterated by a sonically-charged shriek
+[03:10:26] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:10:47] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:10:57] [Server thread/INFO]: Strande_ was obliterated by a sonically-charged shriek
+[03:11:01] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:11:07] [Server thread/INFO]: Strande_ issued server command: /homes spawn
+[03:11:14] [Server thread/INFO]: Strande_ issued server command: /tpa deyvid
+[03:11:21] [Server thread/INFO]: fabrizio123 issued server command: /tpa MINEcreeperPro
+[03:11:22] [Server thread/INFO]: MINEcreeperPro issued server command: /tpaccept
+[03:11:27] [Server thread/INFO]: deyvid issued server command: /tpaccept
+[03:11:32] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:11:32] [Async Chat Thread - #35/INFO]: [Not Secure] <Strande_> te hago tp?
+[03:11:33] [Async Chat Thread - #35/INFO]: [Not Secure] <Strande_> xd
+[03:11:39] [Async Chat Thread - #35/INFO]: [Not Secure] <deyvid> vale
+[03:11:40] [Server thread/INFO]: Strande_ issued server command: /home base1
+[03:11:48] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:11:54] [Server thread/INFO]: MINEcreeperPro has made the advancement [Cover Me with Diamonds]
+[03:11:54] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:12:00] [Async Chat Thread - #35/INFO]: [Not Secure] <Strande_> mandame tpa
+[03:12:01] [Server thread/INFO]: deyvid was shot by Skeleton
+[03:12:10] [Server thread/INFO]: deyvid issued server command: /tpa Strande_
+[03:12:17] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:12:59] [Async Chat Thread - #36/INFO]: [Not Secure] <fabrizio123> deja xxdd
+[03:13:09] [Async Chat Thread - #36/INFO]: [Not Secure] <fabrizio123> yo te vpy a dar
+[03:13:28] [Async Chat Thread - #36/INFO]: [Not Secure] <fabrizio123> pera
+[03:13:30] [Server thread/INFO]: Strande_ issued server command: /tpa MINEcreeperPro
+[03:13:41] [Server thread/INFO]: MINEcreeperPro issued server command: /tpaccept
+[03:13:44] [Server thread/INFO]: deyvid has made the advancement [Suit Up]
+[03:14:03] [Server thread/INFO]: deyvid has made the advancement [Isn't It Iron Pick]
+[03:14:12] [Async Chat Thread - #36/INFO]: [Not Secure] <fabrizio123> listo
+[03:14:18] [Async Chat Thread - #36/INFO]: [Not Secure] <deyvid> grax
+[03:15:08] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:15:11] [Server thread/INFO]: deyvid issued server command: /sethome
+[03:15:12] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:15:21] [Server thread/INFO]: deyvid issued server command: /home
+[03:15:45] [Server thread/INFO]: fabrizio123 issued server command: /home base 1
+[03:16:00] [Server thread/INFO]: fabrizio123 issued server command: /tpa MINEcreeperPro
+[03:16:07] [Server thread/INFO]: MINEcreeperPro issued server command: /tpaccept
+[03:17:06] [Server thread/INFO]: fabrizio123 was obliterated by a sonically-charged shriek
+[03:17:09] [Server thread/INFO]: fabrizio123 issued server command: /tpa MINEcreeperPro
+[03:17:14] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:17:16] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:17:23] [Server thread/INFO]: fabrizio123 issued server command: /home base 1
+[03:17:24] [Server thread/INFO]: fabrizio123 issued server command: /home base 1
+[03:17:26] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:17:29] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:17:35] [Server thread/INFO]: Strande_ issued server command: /aclist fabrizio123
+[03:17:36] [Server thread/INFO]: Strande_ issued server command: /acfetch fabrizio123 1
+[03:18:01] [Server thread/INFO]: fabrizio123 was obliterated by a sonically-charged shriek
+[03:18:04] [Server thread/INFO]: MINEcreeperPro has completed the challenge [Cover Me in Debris]
+[03:18:04] [Server thread/INFO]: [AngelChest] MINEcreeperPro opened the AngelChest of fabrizio123 at Location{world=CraftWorld{name=world},x=-1008.0,y=-59.0,z=1822.0,pitch=0.0,yaw=0.0}
+[03:18:04] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:18:09] [Server thread/INFO]: [AngelChest] MINEcreeperPro opened the AngelChest of fabrizio123 at Location{world=CraftWorld{name=world},x=-1008.0,y=-59.0,z=1822.0,pitch=0.0,yaw=0.0}
+[03:18:10] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:18:27] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[03:18:34] [Server thread/INFO]: Strande_ was obliterated by a sonically-charged shriek
+[03:18:38] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:18:44] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[03:19:26] [Server thread/INFO]: fabrizio123 was obliterated by a sonically-charged shriek
+[03:19:29] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:19:32] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:20:02] [Server thread/INFO]: fabrizio123 was obliterated by a sonically-charged shriek
+[03:20:05] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:20:19] [Server thread/INFO]: fabrizio123 issued server command: /tpa MINEcreeperPro
+[03:20:22] [Server thread/INFO]: MINEcreeperPro issued server command: /tpaccept
+[03:20:24] [Server thread/INFO]: Strande_ was obliterated by a sonically-charged shriek
+[03:20:26] [Server thread/INFO]: fabrizio123 issued server command: /home base 1
+[03:20:27] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:20:33] [Server thread/INFO]: Strande_ issued server command: /home granja2_1
+[03:20:46] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:20:47] [Server thread/INFO]: Strande_ issued server command: /tpaccept *
+[03:22:42] [Server thread/INFO]: Strande_ drowned
+[03:23:15] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:26:21] [Server thread/INFO]: Strande_ issued server command: /difficulty hard
+[03:27:54] [User Authenticator #5/INFO]: UUID of player azlm0 is 825616fb-872a-3c61-9c89-0155f1e56c70
+[03:28:01] [Server thread/INFO]: azlm0 joined the game
+[03:28:01] [TAB Processing Thread/INFO]: [TAB] [WARN] Player azlm0's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[03:28:01] [Server thread/INFO]: azlm0[/127.38.195.207:47263] logged in with entity id 50430 at ([world]-246.27793892062573, 77.0, 667.1930819577758)
+[03:28:57] [Async Chat Thread - #37/INFO]: [Not Secure] <fabrizio123> entra en la llaamda
+[03:29:51] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:29:56] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:30:26] [Server thread/INFO]: deyvid has made the advancement [Acquire Hardware]
+[03:32:19] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:32:22] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:32:32] [Server thread/INFO]: MINEcreeperPro issued server command: /sethome
+[03:32:48] [Server thread/INFO]: deyvid issued server command: /sethome
+[03:32:56] [Server thread/INFO]: deyvid issued server command: /homes
+[03:33:03] [Server thread/INFO]: deyvid issued server command: /home
+[03:33:07] [Server thread/INFO]: Strande_ fell from a high place
+[03:33:12] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[03:33:15] [Server thread/INFO]: deyvid issued server command: /home
+[03:33:26] [Server thread/INFO]: deyvid issued server command: /home home
+[03:33:34] [Server thread/INFO]: deyvid lost connection: Disconnected
+[03:33:34] [Server thread/INFO]: deyvid left the game
+[03:34:29] [Server thread/INFO]: Strande_ issued server command: /home end
+[03:35:43] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:35:43] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:36:03] [Server thread/INFO]: Strande_ issued server command: /tpa *
+[03:36:11] [Server thread/INFO]: Strande_ issued server command: /tpaccept *
+[03:36:11] [Server thread/INFO]: MINEcreeperPro has made the advancement [The End?]
+[03:36:14] [Server thread/INFO]: azlm0 issued server command: /tpa Strande_
+[03:36:18] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:38:12] [Server thread/INFO]: Strande_ issued server command: /tps
+[03:39:54] [Server thread/WARN]: MINEcreeperPro moved too quickly! 18.349465162532397,-3.3652835282846922,9.509192997832542
+[03:42:00] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:42:05] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:42:05] [Server thread/INFO]: MINEcreeperPro has made the advancement [The City at the End of the Game]
+[03:44:54] [Server thread/WARN]: Strande_ moved wrongly!, (-0.050922280525014685)
+[03:45:35] [Server thread/INFO]: azlm0 issued server command: /tpa fabrizio123
+[03:46:13] [Server thread/INFO]: Strande_ issued server command: /home granja
+[03:46:23] [Server thread/INFO]: fabrizio123 issued server command: /tpaccept
+[03:47:08] [Server thread/INFO]: azlm0 issued server command: /tpa Strande_
+[03:47:23] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:47:34] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa azlm0
+[03:47:43] [Server thread/INFO]: azlm0 issued server command: /tpaccept
+[03:47:46] [Server thread/INFO]: Strande_ issued server command: /home granja
+[03:47:47] [Server thread/INFO]: fabrizio123 issued server command: /tpaccept
+[03:47:51] [Server thread/INFO]: fabrizio123 issued server command: /tpaccept
+[03:47:55] [Server thread/INFO]: Strande_ issued server command: /home base1
+[03:48:01] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa fabrizio123
+[03:48:03] [Server thread/INFO]: fabrizio123 issued server command: /tpaccept
+[03:48:54] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa azlm0
+[03:49:08] [Server thread/INFO]: azlm0 issued server command: /tpaccept
+[03:49:14] [Server thread/INFO]: MINEcreeperPro issued server command: /home
+[03:49:26] [Server thread/INFO]: azlm0 issued server command: /tpa Strande_
+[03:49:30] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:50:50] [Server thread/INFO]: fabrizio123 issued server command: /home base 1
+[03:51:15] [Server thread/INFO]: Strande_ issued server command: /invsee MINEcreeperPro
+[03:51:40] [Server thread/WARN]: azlm0 moved too quickly! -7.728124296839411,1.0,-7.771558668516491
+[03:53:00] [Server thread/INFO]: MINEcreeperPro has made the advancement [Enchanter]
+[03:54:11] [Server thread/INFO]: Strande_ issued server command: /home dungeon
+[03:54:17] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:54:24] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:54:27] [Server thread/INFO]: fabrizio123 issued server command: /home base 1
+[03:56:57] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[03:57:02] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:57:07] [Server thread/INFO]: Strande_ issued server command: /home granja
+[03:57:13] [Server thread/INFO]: MINEcreeperPro issued server command: /tpa Strande_
+[03:57:27] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[03:58:51] [Server thread/INFO]: MINEcreeperPro issued server command: /home
+[03:59:47] [Server thread/INFO]: Strande_ issued server command: /home nether
+[04:00:18] [Server thread/INFO]: azlm0 issued server command: /tpa Strande_
+[04:00:25] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:00:38] [Server thread/INFO]: fabrizio123 was shot by Skeleton
+[04:00:42] [Server thread/INFO]: fabrizio123 issued server command: /tpa Strande_
+[04:00:58] [Server thread/INFO]: Strande_ issued server command: /aclist fabrizio123
+[04:01:00] [Server thread/INFO]: Strande_ issued server command: /actp fabrizio123 1
+[04:01:03] [Server thread/INFO]: azlm0 has made the advancement [Oh Shiny]
+[04:01:07] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:01:21] [Server thread/INFO]: Strande_ issued server command: /tpa azlm0
+[04:02:02] [Server thread/INFO]: Strande_ issued server command: /tpa azlm0
+[04:02:05] [Server thread/INFO]: MINEcreeperPro fell from a high place
+[04:02:08] [Server thread/INFO]: azlm0 issued server command: /tpaccept
+[04:02:14] [Server thread/INFO]: MINEcreeperPro issued server command: /home
+[04:02:45] [Server thread/WARN]: azlm0 moved too quickly! -7.972098572278355,0.0,-6.911482286334248
+[04:03:26] [Server thread/INFO]: Strande_ issued server command: /home base1
+[04:03:41] [Server thread/INFO]: MINEcreeperPro lost connection: Disconnected
+[04:03:41] [Server thread/INFO]: MINEcreeperPro left the game
+[04:04:28] [Server thread/INFO]: Strande_ issued server command: /home nether
+[04:04:45] [Server thread/INFO]: Strande_ issued server command: /tpa azlm0
+[04:04:45] [Server thread/INFO]: azlm0 lost connection: Disconnected
+[04:04:45] [Server thread/INFO]: azlm0 left the game
+[04:04:54] [User Authenticator #6/INFO]: UUID of player azlm0 is 825616fb-872a-3c61-9c89-0155f1e56c70
+[04:04:56] [TAB Processing Thread/INFO]: [TAB] [WARN] Player azlm0's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:04:56] [Server thread/INFO]: azlm0 joined the game
+[04:04:56] [Server thread/INFO]: azlm0[/127.38.195.207:40237] logged in with entity id 82534 at ([world_nether]-275.26389183856287, 27.61296630357296, -116.9631087070567)
+[04:05:01] [Server thread/INFO]: azlm0 tried to swim in lava
+[04:05:19] [Server thread/INFO]: azlm0 issued server command: /tpa Strande_
+[04:05:25] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:05:29] [Server thread/INFO]: Strande_ issued server command: /aclist
+[04:05:35] [Server thread/INFO]: Strande_ issued server command: /aclist azlm0
+[04:05:36] [Server thread/INFO]: Strande_ issued server command: /acfetch azlm0 1
+[04:05:41] [Async Chat Thread - #39/INFO]: [Not Secure] <Strande_> entra a la llamda p
+[04:09:43] [User Authenticator #7/INFO]: UUID of player JoshePM_12 is e9589741-fc1b-3244-a142-b8d000974ce1
+[04:09:49] [Server thread/INFO]: Strande_ was doomed to fall by Piglin
+[04:09:53] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[04:09:54] [User Authenticator #7/INFO]: UUID of player Jkevvrzzz is d1e09f7f-48ac-33ae-8f36-860253dfd379
+[04:09:54] [Server thread/INFO]: Jkevvrzzz joined the game
+[04:09:54] [Server thread/INFO]: Jkevvrzzz[/127.124.181.102:49023] logged in with entity id 85929 at ([world]7.5, 63.0, 16.5)
+[04:10:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player JoshePM_12's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:10:11] [Server thread/INFO]: JoshePM_12 joined the game
+[04:10:11] [Server thread/INFO]: JoshePM_12[/127.200.126.4:36627] logged in with entity id 85519 at ([world]-245.0746156607602, 193.5, 783.6999999880791)
+[04:10:23] [Async Chat Thread - #42/INFO]: [Not Secure] <JoshePM_12> que
+[04:10:50] [Server thread/INFO]: azlm0 was shot by Piglin
+[04:10:57] [Async Chat Thread - #42/INFO]: [Not Secure] <JoshePM_12> que
+[04:11:32] [Server thread/INFO]: Strande_ issued server command: /lp user Jkevvrzzz parent set tilines
+[04:11:32] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (jkevvrzzz)
+[04:11:32] [luckperms-command-executor/INFO]: [LP] LOG > parent set tilines
+[04:11:32] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Jkevvrzzz's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:11:48] [Server thread/INFO]: Strande_ issued server command: /lp user Jkevvrzzz permission set essentials.tpa true
+[04:11:48] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (jkevvrzzz)
+[04:11:48] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tpa true
+[04:11:56] [Server thread/INFO]: JoshePM_12 issued server command: /tpa Strande
+[04:11:59] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa Strande_
+[04:12:01] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:12:01] [Server thread/INFO]: Jkevvrzzz has made the advancement [We Need to Go Deeper]
+[04:12:01] [Server thread/INFO]: Jkevvrzzz has made the advancement [Those Were the Days]
+[04:12:10] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa fabrizio123
+[04:12:14] [Server thread/INFO]: fabrizio123 issued server command: /tpaccept
+[04:12:14] [Server thread/INFO]: Jkevvrzzz has made the advancement [Minecraft: Trial(s) Edition]
+[04:12:18] [Server thread/INFO]: JoshePM_12 issued server command: /tpa base
+[04:12:23] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa azlm0
+[04:12:23] [Server thread/INFO]: JoshePM_12 issued server command: /tpa base
+[04:12:27] [Server thread/INFO]: azlm0 issued server command: /tpaccept
+[04:12:28] [Server thread/INFO]: JoshePM_12 issued server command: /home base
+[04:12:35] [Server thread/INFO]: Jkevvrzzz has made the advancement [Cover Me with Diamonds]
+[04:12:35] [Server thread/INFO]: Jkevvrzzz has reached the goal [Sky's the Limit]
+[04:12:37] [Server thread/INFO]: Jkevvrzzz has made the advancement [Stone Age]
+[04:12:47] [Server thread/INFO]: azlm0 issued server command: /tpa Strande_
+[04:12:52] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:12:55] [Server thread/INFO]: azlm0 tried to swim in lava
+[04:13:09] [Server thread/INFO]: azlm0 issued server command: /tpa Strande_
+[04:13:14] [Async Chat Thread - #43/INFO]: [Not Secure] <Jkevvrzzz> che pvp
+[04:13:25] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:13:34] [Server thread/INFO]: Strande_ issued server command: /aclist azlm0
+[04:13:35] [Server thread/INFO]: Strande_ issued server command: /acfetch azlm0 1
+[04:14:20] [Server thread/INFO]: JoshePM_12 issued server command: /home cima
+[04:14:20] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa Strande_
+[04:14:25] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:14:31] [Server thread/INFO]: Jkevvrzzz has made the advancement [Monster Hunter]
+[04:15:32] [Server thread/INFO]: Strande_ tried to swim in lava to escape Piglin Brute
+[04:15:36] [Server thread/INFO]: Strande_ issued server command: /actp 1
+[04:15:45] [Async Chat Thread - #45/INFO]: [Not Secure] <JoshePM_12> JAJAJAJAJA
+[04:15:59] [Server thread/WARN]: JoshePM_12 moved wrongly!, (0.0)
+[04:16:53] [Server thread/INFO]: Strande_ lost connection: Disconnected
+[04:16:54] [Server thread/INFO]: Strande_ left the game
+[04:16:57] [User Authenticator #8/INFO]: UUID of player Strande_ is 19c09800-4cec-3c93-99a0-4841cc10b8b7
+[04:16:59] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Strande_'s group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:16:59] [Server thread/INFO]: Strande_ joined the game
+[04:16:59] [Server thread/INFO]: Strande_[/127.200.126.4:34289] logged in with entity id 89888 at ([world_nether]-810.9965709382876, 36.0, 195.69252343574868)
+[04:17:34] [Server thread/INFO]: Strande_ lost connection: Disconnected
+[04:17:34] [Server thread/INFO]: Strande_ left the game
+[04:18:07] [User Authenticator #9/INFO]: UUID of player Strande_ is 19c09800-4cec-3c93-99a0-4841cc10b8b7
+[04:18:08] [Server thread/INFO]: Strande_ joined the game
+[04:18:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Strande_'s group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:18:08] [Server thread/INFO]: Strande_[/127.200.126.4:44033] logged in with entity id 90266 at ([world_nether]-809.7615225718774, 36.00525600224883, 196.69999998807907)
+[04:18:30] [Server thread/INFO]: Strande_ issued server command: /tpa Jkevvrzzz
+[04:18:35] [Server thread/INFO]: Jkevvrzzz issued server command: /tpaccept
+[04:19:30] [Server thread/WARN]: JoshePM_12 was kicked for floating too long!
+[04:19:30] [Server thread/INFO]: JoshePM_12 lost connection: Flying is not enabled on this server
+[04:19:30] [Server thread/INFO]: JoshePM_12 left the game
+[04:19:44] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa azlm0
+[04:19:52] [Server thread/INFO]: fabrizio123 issued server command: /tpa azlm0
+[04:19:53] [User Authenticator #10/INFO]: UUID of player JoshePM_12 is e9589741-fc1b-3244-a142-b8d000974ce1
+[04:19:54] [Server thread/INFO]: JoshePM_12 joined the game
+[04:19:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Player JoshePM_12's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:19:54] [Server thread/INFO]: JoshePM_12[/127.200.126.4:59545] logged in with entity id 91627 at ([world_nether]-180.99273894618793, 78.53601010530217, 134.67126865471127)
+[04:19:59] [Server thread/INFO]: azlm0 issued server command: /tpaccept
+[04:20:02] [Server thread/WARN]: JoshePM_12 was kicked for floating too long!
+[04:20:02] [Server thread/INFO]: JoshePM_12 lost connection: Flying is not enabled on this server
+[04:20:02] [Server thread/INFO]: JoshePM_12 left the game
+[04:20:09] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa azlm0
+[04:20:14] [User Authenticator #10/INFO]: UUID of player JoshePM_12 is e9589741-fc1b-3244-a142-b8d000974ce1
+[04:20:15] [Server thread/INFO]: JoshePM_12 joined the game
+[04:20:15] [TAB Processing Thread/INFO]: [TAB] [WARN] Player JoshePM_12's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:20:15] [Server thread/INFO]: JoshePM_12[/127.200.126.4:45053] logged in with entity id 91831 at ([world_nether]-139.3800480556092, 90.43408606181634, 209.09221497819456)
+[04:20:19] [Server thread/WARN]: JoshePM_12 moved wrongly!, (-0.7799999713897705)
+[04:20:34] [Server thread/INFO]: azlm0 issued server command: /tpaccept
+[04:20:46] [Server thread/WARN]: JoshePM_12 moved wrongly!, (-0.7799999713897705)
+[04:20:56] [Server thread/WARN]: JoshePM_12 moved wrongly!, (0.0)
+[04:20:56] [Server thread/WARN]: JoshePM_12 moved wrongly!, (0.0)
+[04:20:57] [Server thread/WARN]: JoshePM_12 moved wrongly!, (0.0)
+[04:20:57] [Server thread/WARN]: JoshePM_12 moved wrongly!, (0.0)
+[04:20:57] [Server thread/WARN]: JoshePM_12 moved wrongly!, (0.0)
+[04:20:57] [Server thread/WARN]: JoshePM_12 moved wrongly!, (0.0)
+[04:20:59] [Server thread/INFO]: JoshePM_12 lost connection: Disconnected
+[04:20:59] [Server thread/INFO]: JoshePM_12 left the game
+[04:21:20] [Server thread/INFO]: Strande_ issued server command: /home granja
+[04:21:41] [Server thread/INFO]: Strande_ lost connection: Timed out
+[04:21:41] [Server thread/INFO]: Strande_ left the game
+[04:23:15] [Server thread/INFO]: azlm0 lost connection: Disconnected
+[04:23:15] [Server thread/INFO]: azlm0 left the game
+[04:24:26] [Server thread/INFO]: Jkevvrzzz lost connection: Disconnected
+[04:24:26] [Server thread/INFO]: Jkevvrzzz left the game
+[04:26:15] [User Authenticator #11/INFO]: UUID of player Strande_ is 19c09800-4cec-3c93-99a0-4841cc10b8b7
+[04:26:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Strande_'s group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:26:18] [Server thread/INFO]: Strande_ joined the game
+[04:26:18] [Server thread/INFO]: Strande_[/127.200.126.4:34287] logged in with entity id 92530 at ([world]-95.5, -30.0, 191.5)
+[04:27:57] [User Authenticator #12/INFO]: UUID of player SinJao is bdca5c86-df72-3b9e-9784-60bd29ced7dd
+[04:27:59] [Server thread/INFO]: SinJao joined the game
+[04:27:59] [Server thread/INFO]: SinJao[/127.100.95.161:60003] logged in with entity id 92864 at ([world]1.5, 63.0, 13.5)
+[04:28:37] [Server thread/INFO]: Strande_ issued server command: /lp user SinJao parent set tilines
+[04:28:37] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (sinjao)
+[04:28:37] [luckperms-command-executor/INFO]: [LP] LOG > parent set tilines
+[04:28:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SinJao's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:29:14] [Server thread/INFO]: Strande_ issued server command: /lp user SinJao permission set essentials.sethome
+[04:29:14] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (sinjao)
+[04:29:14] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome true
+[04:29:32] [User Authenticator #13/INFO]: UUID of player Jkevvrzzz is d1e09f7f-48ac-33ae-8f36-860253dfd379
+[04:29:32] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Jkevvrzzz's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:29:32] [Server thread/INFO]: Jkevvrzzz joined the game
+[04:29:32] [Server thread/INFO]: Jkevvrzzz[/127.124.181.102:48325] logged in with entity id 93419 at ([world_nether]-829.4570091172282, 55.0, 210.56898096673882)
+[04:29:34] [Server thread/INFO]: Strande_ issued server command: /lp user SinJao permission set essentials.tpa true
+[04:29:34] [luckperms-command-executor/INFO]: [LP] LOG > (Strande_) [U] (sinjao)
+[04:29:34] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.tpa true
+[04:29:48] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa SinJao
+[04:30:15] [Async Chat Thread - #47/INFO]: [Not Secure] <Jkevvrzzz> SinJao
+[04:30:20] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> aceptame tpa
+[04:30:32] [Server thread/INFO]: Strande_ lost connection: Disconnected
+[04:30:32] [Server thread/INFO]: Strande_ left the game
+[04:30:57] [User Authenticator #14/INFO]: UUID of player Strande_ is 19c09800-4cec-3c93-99a0-4841cc10b8b7
+[04:30:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Strande_'s group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:30:58] [Server thread/INFO]: Strande_ joined the game
+[04:30:58] [Server thread/INFO]: Strande_[/127.200.126.4:56213] logged in with entity id 94097 at ([world]-99.53092686025248, -28.5, 193.958997322881)
+[04:31:07] [Server thread/INFO]: SinJao issued server command: /tpaccept
+[04:31:18] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> que es esta marranada?
+[04:31:23] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> de q
+[04:31:27] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> no hay pa pegar
+[04:31:29] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> no hay pa pcar
+[04:31:29] [Async Chat Thread - #47/INFO]: [Not Secure] <Jkevvrzzz> survival normal idiota
+[04:31:31] [Async Chat Thread - #47/INFO]: [Not Secure] <SinJao> no hay nada
+[04:31:32] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> no
+[04:31:34] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> esto no es survival
+[04:31:38] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> Mira
+[04:31:41] [Async Chat Thread - #48/INFO]: [Not Secure] <fabrizio123> xd
+[04:31:44] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> xd
+[04:31:48] [Async Chat Thread - #48/INFO]: [Not Secure] <Strande_> xd
+[04:31:55] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> vez
+[04:31:56] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa Strande_
+[04:32:02] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> aqui inutil
+[04:32:07] [Async Chat Thread - #47/INFO]: [Not Secure] <Jkevvrzzz> eso esta confiscado
+[04:32:15] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:32:25] [Async Chat Thread - #47/INFO]: [Not Secure] <SinJao> eso es para pendejos
+[04:32:30] [Server thread/INFO]: Strande_ issued server command: /home base1
+[04:32:31] [Async Chat Thread - #47/INFO]: [Not Secure] <Jkevvrzzz> XD?
+[04:32:35] [Server thread/INFO]: Jkevvrzzz issued server command: /tpa Strande_
+[04:32:47] [Server thread/INFO]: fabrizio123 has completed the challenge [Hot Tourist Destinations]
+[04:32:51] [Async Chat Thread - #47/INFO]: [Not Secure] <Jkevvrzzz> SinJao mandame tpa
+[04:32:57] [Async Chat Thread - #47/INFO]: [Not Secure] <fabrizio123> xd
+[04:33:04] [Server thread/INFO]: SinJao issued server command: /tpa
+[04:33:04] [Server thread/INFO]: Strande_ issued server command: /tpaccept
+[04:33:07] [Server thread/INFO]: Strande_ lost connection: Timed out
+[04:33:07] [Server thread/INFO]: Strande_ left the game
+[04:33:08] [Server thread/INFO]: SinJao issued server command: /tpa Jkevvrzzz
+[04:33:20] [Server thread/INFO]: Jkevvrzzz issued server command: /tpaccept
+[04:33:31] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[04:33:31] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[04:33:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:33:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:33:32] [Server thread/INFO]: [TreeCapitator] Disabling TreeCapitator v1.0
+[04:33:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[04:33:32] [Server thread/INFO]: [TAB] Disabling TAB v5.0.1
+[04:33:32] [Server thread/INFO]: [TAB] Disabled in 9ms
+[04:33:32] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[04:33:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[04:33:32] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[04:33:32] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.0
+[04:33:32] [Server thread/ERROR]: Error occurred while disabling AngelChest v13.9.0
+java.lang.ExceptionInInitializerError: null
+	at AngelChest-13.9.0.jar/de.jeff_media.angelchest.AngelChestMain.onDisable(AngelChestMain.java:442) ~[AngelChest-13.9.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.clearPlugins(PaperPluginInstanceManager.java:167) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.clearPlugins(PaperPluginManagerImpl.java:102) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:607) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1108) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:178) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1014) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:999) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:562) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:510) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1634) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1334) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.validate(CraftScheduler.java:539) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:219) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:210) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at org.bukkit.scheduler.BukkitRunnable.runTaskTimer(BukkitRunnable.java:117) ~[paper-mojangapi-1.21-R0.1-SNAPSHOT.jar:?]
+	at AngelChest-13.9.0.jar/de.jeff_media.angelchest.AngelChestMain$$aF.<clinit>(GraveyardListener.java:57) ~[AngelChest-13.9.0.jar:?]
+	... 19 more
+[04:33:32] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[04:33:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[04:33:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
+[04:33:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:33:32] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:33:32] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:33:34] [Server thread/INFO]: Loaded 1290 recipes
+[04:33:34] [Server thread/INFO]: Loaded 1399 advancements
+[04:33:34] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:33:35] [Server thread/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[04:33:35] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - AngelChest (13.9.0), Essentials (2.20.1), LuckPerms (5.4.146), PlaceholderAPI (2.11.6), SkinsRestorer (15.4.4), TAB (5.0.1), TreeCapitator (1.0), Vault (1.7.3-b131)
+[04:33:35] [Server thread/WARN]: Legacy plugin TreeCapitator v1.0 does not specify an api-version.
+[04:33:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[04:33:36] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[04:33:36] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[04:33:36] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[04:33:36] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[04:33:36] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.1
+[04:33:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[04:33:36] [Server thread/INFO]: [TreeCapitator] Loading server plugin TreeCapitator v1.0
+[04:33:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:33:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[04:33:37] [Server thread/INFO]:         __    
+[04:33:37] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[04:33:37] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[04:33:37] [Server thread/INFO]: 
+[04:33:37] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:33:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:33:38] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> sinjao no podes robar cosas
+[04:33:38] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:33:38] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:33:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2516ms)
+[04:33:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[04:33:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[04:33:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[04:33:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[04:33:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[04:33:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[04:33:40] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[04:33:41] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[04:33:42] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[04:33:44] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:33:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.4]
+[04:33:44] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[04:33:44] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.4.4
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: dc501c7
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:33:44] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:33:44] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[04:33:44] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[04:33:44] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[04:33:45] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[04:33:45] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[04:33:45] [Server thread/INFO]: [AngelChest] Removed 1 old log files.
+[04:33:45] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[04:33:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: angelchest [GENERIC]
+[04:33:45] [Server thread/INFO]: [AngelChest] Successfully hooked into Vault and the EconomyProvider, enabling economy functions.
+[04:33:45] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[04:33:45] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[04:33:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[04:33:45] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[04:33:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:33:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:33:47] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[04:33:47] [Server thread/INFO]: [Essentials] Using locale en
+[04:33:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:33:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:33:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[04:33:47] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[04:33:47] [Server thread/INFO]: [TAB] Enabling TAB v5.0.1
+[04:33:47] [Server thread/INFO]: [TAB] Loaded NMS hook in 79ms
+[04:33:49] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[04:33:49] [Server thread/INFO]: [TAB] [WARN] Player SinJao's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:33:49] [Server thread/INFO]: [TAB] [WARN] Player fabrizio123's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:33:49] [Server thread/INFO]: [TAB] [WARN] Player Jkevvrzzz's group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:33:49] [Server thread/INFO]: [TAB] Enabled in 1483ms
+[04:33:49] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0*
+[04:33:49] [Paper Async Command Builder Thread Pool - 32/ERROR]: Caught previously unhandled exception :
+[04:33:49] [Paper Async Command Builder Thread Pool - 32/ERROR]: Paper Async Command Builder Thread Pool - 32
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:547) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:510) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.commands.Commands.lambda$sendCommands$5(Commands.java:483) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:33:49] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[04:33:49] [Server thread/INFO]: CONSOLE: Reload complete.
+[04:33:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18299ms or 365 ticks behind
+[04:33:49] [Craft Scheduler Thread - 57 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:33:49] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[04:33:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[04:33:49] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[04:33:50] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> esto es lo menos survival que he visto
+[04:33:50] [Craft Scheduler Thread - 61 - Vault/INFO]: [Vault] Checking for Updates ... 
+[04:33:50] [Craft Scheduler Thread - 61 - Vault/INFO]: [Vault] No new version available
+[04:33:52] [Server thread/INFO]: [AngelChest] ========================================================
+[04:33:52] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[04:33:52] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[04:33:52] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[04:33:52] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[04:33:52] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[04:33:52] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[04:33:52] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[04:33:52] [Server thread/INFO]: [AngelChest] 
+[04:33:52] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[04:33:52] [Server thread/INFO]: [AngelChest] ========================================================
+[04:33:54] [Server thread/INFO]: fabrizio123 issued server command: /home base 1
+[04:34:00] [User Authenticator #15/INFO]: UUID of player Strande_ is 19c09800-4cec-3c93-99a0-4841cc10b8b7
+[04:34:01] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> ah
+[04:34:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Strande_'s group (tilines) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:34:02] [Server thread/INFO]: Strande_ joined the game
+[04:34:02] [Server thread/INFO]: Strande_[/127.200.126.4:44027] logged in with entity id 95901 at ([world]-232.5, 72.0, 671.5)
+[04:34:04] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> q sea survival no significa q sea vanilla
+[04:34:05] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> y para que lo sepas
+[04:34:12] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> entré sin los texture packs
+[04:34:20] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> y sin sk launcher
+[04:34:23] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> tu problema, vos te lo pierdes
+[04:34:33] [Async Chat Thread - #48/INFO]: [Not Secure] <SinJao> marico no lo cambia nada
+[04:34:39] [Server thread/INFO]: Strande_ lost connection: Timed out
+[04:34:39] [Server thread/INFO]: Strande_ left the game
+[04:35:04] [Async Chat Thread - #48/INFO]: [Not Secure] <Jkevvrzzz> sinjao q haces
+[04:35:07] [Server thread/INFO]: SinJao hit the ground too hard
+[04:35:13] [Async Chat Thread - #48/INFO]: [Not Secure] <fabrizio123> xd
+[04:35:15] [Server thread/INFO]: [AngelChest] fabrizio123 opened the AngelChest of SinJao at Location{world=CraftWorld{name=world},x=-236.0,y=71.0,z=684.0,pitch=0.0,yaw=0.0}
+[04:35:29] [Server thread/INFO]: [AngelChest] fabrizio123 opened the AngelChest of SinJao at Location{world=CraftWorld{name=world},x=-236.0,y=71.0,z=684.0,pitch=0.0,yaw=0.0}
+[04:35:31] [Server thread/INFO]: Stopping the server
+[04:35:31] [Server thread/INFO]: Stopping server
+[04:35:31] [Server thread/INFO]: [TreeCapitator] Disabling TreeCapitator v1.0
+[04:35:31] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[04:35:31] [Server thread/INFO]: [TAB] Disabling TAB v5.0.1
+[04:35:31] [Server thread/INFO]: [TAB] Disabled in 7ms
+[04:35:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[04:35:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[04:35:31] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.0
+[04:35:31] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[04:35:31] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[04:35:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
+[04:35:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:35:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:35:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:35:31] [Server thread/INFO]: Saving players
+[04:35:31] [Server thread/INFO]: Jkevvrzzz lost connection: Server closed
+[04:35:31] [Server thread/INFO]: Jkevvrzzz left the game
+[04:35:31] [Server thread/INFO]: fabrizio123 lost connection: Server closed
+[04:35:31] [Server thread/INFO]: fabrizio123 left the game
+[04:35:31] [Server thread/INFO]: SinJao lost connection: Server closed
+[04:35:31] [Server thread/INFO]: SinJao left the game
+[04:35:31] [Server thread/INFO]: Saving worlds
+[04:35:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:35:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:35:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:35:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Saved 1000 block chunks, 1139 entity chunks, 0 poi chunks in world 'world' in 1.77s
+[04:35:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 97 entity chunks, 0 poi chunks in world 'world_nether' in 0.10s
+[04:35:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:35:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[04:35:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:35:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:35:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:35:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
